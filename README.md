@@ -1,36 +1,45 @@
 # SigMedical
-Sistema de clínica médica: Sistema em linguagem C desenvolvido para a disciplina de Programação, com funcionalidades de gerenciamento de consultas médicas, controle de estoque de materiais e manuntenção de funcionários e clientes.
 
-# Funcionalidades:
-# Consultas
-- Cadastrar consultas (paciente, médico, data e horário)
-- Listar todas as consultas cadastradas
+Medical clinic management system developed in C for the Programming course. It includes features for managing medical appointments, supply inventory, staff records, and patients.
 
-# Estoque
-- Cadastrar produtos (nome, quantidade e validade)
-- Listar todos os produtos
-- Atualizar informações de produtos
-- Remover produtos do estoque
-  
-# Funcionários
-- Cadastrar funcionários
-- Pesquisar funcionários
-- Alterar funcionários
-- Excluir funcionários
+## Features
 
-# Clientes
-- Cadastrar clientes
-- Pesquisar clientes
-- Alterar clientes
-- Excluir clientes
+### Appointments
+- Schedule appointments (patient, doctor, date, and time)
+- List all scheduled appointments
 
-# Como executar
-1. Baixe ou clone o repositório.
-2. Compile o código C.
+### Inventory
+- Register products (name, quantity, and expiration date)
+- List all products
+- Update product information
+- Remove products from inventory
 
-# Criado por:
-Thiago Gomes de Oliveira
-thiago.oliveira.712@ufrn.edu.br
+### Staff
+- Register staff members
+- Search staff records
+- Edit staff details
+- Delete staff records
 
-Maria Luiza Severo de Lima
-maria.severo.063@ufrn.edu.br
+### Patients / Clients
+- Register patients
+- Search patient records
+- Edit patient details
+- Delete patient records
+
+## How to Run
+
+1. Clone or download the repository:
+'''bash
+git clone [https://github.com/thiagogomes1805/SigMedical-Gestao-de-Clinicas-Medicas.git](https://github.com/thiagogomes1805/SigMedical-Gestao-de-Clinicas-Medicas.git)
+cd SigMedical-Gestao-de-Clinicas-Medicas
+
+2. Compile the code:
+gcc -o sigmedical *.c
+
+3. Run the executable:
+./sigmedical
+
+### Authors
+Thiago Gomes de Oliveira (thiago.oliveira.712@ufrn.edu.br)
+
+Maria Luiza Severo de Lima (maria.severo.063@ufrn.edu.br)
